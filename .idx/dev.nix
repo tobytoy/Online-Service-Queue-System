@@ -9,7 +9,8 @@
     # pkgs.go
     pkgs.python312
     pkgs.python312Packages.pip
-    # pkgs.nodejs_20
+    pkgs.python312Packages.flask,
+    pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
     # pkgs.uv
   ];
@@ -44,7 +45,7 @@
       # Runs when a workspace is first created
       onCreate = {
         # Example: install JS dependencies from NPM
-        # npm-install = "npm install";
+        npm-install = "npm install";
       };
       # Runs when the workspace is (re)started
       onStart = {
