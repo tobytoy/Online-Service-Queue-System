@@ -8,6 +8,10 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
+```bash
+source .venv/bin/activate && python clover/app.py
+```
+
 # 線上取號系統
 
 這是一個使用 Vue.js 前端和 Flask 後端的線上取號系統。
