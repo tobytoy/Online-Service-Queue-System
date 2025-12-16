@@ -7,11 +7,11 @@
   # Use https://search.nixos.org/packages to find packages
   packages = [
     # pkgs.go
-    pkgs.python313
-    pkgs.python313Packages.pip
+    pkgs.python312
+    pkgs.python312Packages.pip
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
-    pkgs.uv
+    # pkgs.uv
   ];
 
   # Sets environment variables in the workspace
